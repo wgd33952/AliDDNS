@@ -1,0 +1,22 @@
+{
+  "name": "wgd33952/aliddns",
+  "description": "通过阿里云提供的DDNS，动态将域名解析到本机公网IP",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "homepage": "https://imjune.cn",
+  "authors": [
+    {
+      "name": "June",
+      "email": "junechan08@yeah.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "alibabacloud/sdk": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "wgd33952\\AliyunCloud\\": "src/"
+    }
+  }
+}
